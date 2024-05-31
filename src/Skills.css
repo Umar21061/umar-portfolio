@@ -12,7 +12,6 @@
   border: 2px solid black;
   padding: 20px;
   margin: 100px auto; /* Centering the container */
-  margin-right: 10px;
   max-width: 1000px; /* Adjust the maximum width as needed */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Updated shadow */
 }
@@ -79,18 +78,29 @@
 
 /* Media query for small screens */
 @media screen and (max-width: 768px) {
-  .skills-container {
-    margin: 0 auto; /* Centering the skills container */
-    width: 90%; /* Adjusted width for better responsiveness */
+  .content-container {
+    padding: 10px; /* Reduced padding for smaller screens */
+    margin-left: 20px;
+  }
+  
+  .heading {
+    font-size: 28px; /* Further reduced font size for smaller screens */
+  }
+  
+  .what-i-do {
+    font-size: 16px; /* Further reduced font size for smaller screens */
+  }
+  
+  .who-i-am {
+    font-size: 12px; /* Further reduced font size for smaller screens */
   }
   
   .skill-item {
-    flex: 0 0 calc(50% - 20px); /* Adjusted width to fit 2 items per row */
-    margin-left: 10px;
-    margin-right: 10px;
+    flex: 0 0 calc(100% - 20px); /* Adjusted width to fit 1 item per row */
+    margin-left: 14px;
+  
   }
-}
-
+}/* Style scrollbar for Chrome, Safari, and Opera */
 .skills-list::-webkit-scrollbar {
   width: 15px; /* Width of the scrollbar */
 }
