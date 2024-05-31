@@ -1,0 +1,116 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #223d70, #5531d8, #5988ee); 
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-family: 'Hellix', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+  margin-left: 100px;
+}
+
+.navbar-brand:hover {
+  color: yellow;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 150px;
+  font-family: 'Hellix', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  gap: 20px;
+}
+
+.navbar-menu li {
+  margin-left: 1.5rem;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 20px;
+}
+
+.navbar-menu a:hover {
+  color: yellow;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 0.5rem;
+  }
+  
+  .navbar-brand {
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  
+  .navbar-menu {
+    margin-right: 50px;
+    gap: 15px;
+    font-size: 18px;
+  }
+  
+  .navbar-menu li {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .navbar-brand {
+    margin-left: 1rem;
+    font-size: 30px;
+  }
+  
+  .navbar-menu {
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 1rem;
+    display: none; /* Hide menu by default */
+    width: 100%;
+  }
+  
+  .navbar-menu.show {
+    display: flex; /* Show menu when toggled */
+  }
+  
+  .navbar-menu li {
+    margin: 0.5rem 0;
+  }
+}
+
+/* Toggle button for mobile menu */
+.navbar-toggle {
+  display: none; /* Hidden by default */
+  font-size: 30px;
+  color: white;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block; /* Show toggle button on small screens */
+    position: absolute; /* Position it absolutely */
+    top: 1rem; /* Adjust as needed */
+    right: 1rem; /* Position to the right side */
+  }
+}

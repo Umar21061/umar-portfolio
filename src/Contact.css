@@ -1,0 +1,113 @@
+.contact-page {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me {
+  flex: 0.4;
+  margin-right: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.about-me h2 {
+  margin-top: 0;
+}
+.p{
+  color: black;
+  text-align: left;
+}
+
+.about-me a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-me a:hover {
+  text-decoration: underline;
+}
+
+.contact-container {
+  flex: 0.6;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2b79cc;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e1688;
+}
+
+.contact-heading {
+  margin-bottom: 20px;
+}
+
+.about_heading {
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+/* Media Query for small screens */
+@media only screen and (max-width: 768px) {
+  .contact-page {
+    flex-direction: column; /* Change to column layout on small screens */
+    padding: 10px; /* Reduce padding on small screens */
+  }
+  .p{
+    color: black;
+    text-align: left;
+  }
+
+  .about-me,
+  .contact-container {
+    width: 100%; /* Both sections take full width on small screens */
+    margin-right: 0; /* Remove margin-right for both sections */
+    margin-bottom: 20px; /* Add space between sections */
+    text-align: center;
+  }
+}

@@ -1,0 +1,83 @@
+.skills-container {
+  background-color: rgb(58, 55, 55);
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.heading {
+  color: white;
+  text-align: center; 
+  font-family: 'Hellix', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: left;
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.skill {
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+  margin: 0 10px;
+  color: white;
+  font-family: 'Hellix', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  
+}
+
+.skill-bar {
+  flex: 1;
+  height: 8px;
+  border-radius: 5px;
+  margin: 0 10px;
+  position: relative;
+  margin-right: 100px;
+  width: 100%;
+  background-color: white; /* Set the background color of the skill bar */
+}
+
+.skill-bar-inner {
+  height: 100%;
+  border-radius: 5px;
+  /* Keep the inner part unchanged */
+}
+
+/* Define different colors for skills */
+.Python { background-color: rgb(255, 0, 0); }
+.Django { background-color: rgb(0, 255, 0); }
+.Reactjs { background-color: rgb(0, 0, 255); }
+.Portfolio_Websites { background-color: rgb(255, 255, 0); }
+.WordPress { background-color: rgb(255, 0, 255); }
+.E-commerce_Development { background-color: rgb(0, 255, 255); }
+.Data_Analysis { background-color: rgb(128, 0, 0); }
+.Machine_Learning { background-color: rgb(0, 128, 0); }
+.PHP { background-color: rgb(0, 0, 128); }
+.Laravel { background-color: rgb(128, 128, 0); }
+.Shopify { background-color: rgb(128, 0, 128); }
+.Problem_Solving { background-color: rgb(0, 128, 128); }
+.percentage {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  color: white;
+  font-size: 12px;
+}
