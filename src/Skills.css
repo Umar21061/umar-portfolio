@@ -80,6 +80,7 @@
 @media screen and (max-width: 768px) {
   .content-container {
     padding: 10px; /* Reduced padding for smaller screens */
+    margin-left: 20px;
   }
   
   .heading {
