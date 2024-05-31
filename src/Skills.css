@@ -12,6 +12,7 @@
   border: 2px solid black;
   padding: 20px;
   margin: 100px auto; /* Centering the container */
+  margin-right: 10px;
   max-width: 1000px; /* Adjust the maximum width as needed */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Updated shadow */
 }
@@ -98,7 +99,7 @@
   .skill-item {
     flex: 0 0 calc(100% - 20px); /* Adjusted width to fit 1 item per row */
     margin-left: 14px;
-    margin-right: 14px;
+  
   }
 }/* Style scrollbar for Chrome, Safari, and Opera */
 .skills-list::-webkit-scrollbar {
