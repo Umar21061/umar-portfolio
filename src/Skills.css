@@ -97,6 +97,7 @@
   
   .skill-item {
     flex: 0 0 calc(100% - 20px); /* Adjusted width to fit 1 item per row */
+    margin-left: 20px;
   }
 }/* Style scrollbar for Chrome, Safari, and Opera */
 .skills-list::-webkit-scrollbar {
