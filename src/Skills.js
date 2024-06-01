@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Skills.css'; // Import the CSS file for styling
-import bgImage from './images/bg.jpg'; // Import the background image
+import bgImage from './images/bg.avif'; // Import the background image
 
 const Skills = () => {
   const [skillsWithImages, setSkillsWithImages] = useState([]);
