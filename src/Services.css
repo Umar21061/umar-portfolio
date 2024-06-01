@@ -1,7 +1,7 @@
 .services-container {
   margin: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 50px;
 }
 
@@ -69,6 +69,6 @@
   }
 
   .services-container h1 {
-    font-size: 26px; /* Adjust heading size for smaller screens */
+    font-size: 36px; /* Adjust heading size for smaller screens */
   }
 }
