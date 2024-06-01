@@ -1,7 +1,7 @@
 .services-container {
   margin: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 50px;
 }
 
@@ -45,7 +45,7 @@
 /* Media query for small screens */
 @media screen and (max-width: 768px) {
   .services-container {
-    margin: 50px 100px 20px; /* Equal left and right margin for smaller screens */
+    margin: 50px 25px 20px; /* Equal left and right margin for smaller screens */
   }
   
   .services {
