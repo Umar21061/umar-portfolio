@@ -13,7 +13,8 @@ const Skills = () => {
         "E-commerce Development", "Data Analysis", "Machine Learning", "PHP",
         "Laravel", "Shopify", "Problem Solving", "Github", "LinkedIn",
         "Heroku", "AWS", "Postman", "Node.js", "MongoDB", "PostgreSQL", 
-        "SQL", "Express", "Artificial Intelligence", "Machine Learning"
+        "SQL", "Express", "Artificial Intelligence", "Machine Learning" 
+        
       ];
 
       for (const skill of skills) {

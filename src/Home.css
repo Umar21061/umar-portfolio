@@ -7,6 +7,7 @@
     display: flex;
     align-items: center; /* Vertically center the content */
     padding: 0 20px; /* Add padding to the sides */
+    overflow: hidden; /* Prevent scrollbars during animation */
 }
 
 .home-page .content {
@@ -15,6 +16,7 @@
     flex-direction: column;
     justify-content: center; /* Vertically center the text */
     margin-top: 30px;
+    animation: fadeIn 1s ease-out; /* Apply fade-in animation to content */
 }
 
 .home-page h1 {
@@ -25,7 +27,7 @@
     margin-bottom: 20px;
     text-align: left; /* Left-align the text */
     color: black;
-    
+    animation: slideInFromLeft 1s ease-out; /* Slide in from left */
 }
 
 .home-page h3 {
@@ -36,7 +38,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
-    
+    animation: slideInFromLeft 1.2s ease-out; /* Slide in from left with delay */
 }
 
 .home-page p {
@@ -47,6 +49,7 @@
     text-align: left; /* Left-align the text */
     color: black;
     text-align: justify;
+    animation: slideInFromLeft 1.4s ease-out; /* Slide in from left with more delay */
 }
 
 .home-page img {
@@ -54,6 +57,7 @@
     height: auto;
     border-radius: 30%; /* Make the image circular */
     margin-top: 60px;
+    animation: fadeIn 1s ease-out; /* Apply fade-in animation */
 }
 
 .icon-row {
@@ -61,6 +65,7 @@
     gap: 30px;
     justify-content: flex-start; /* Align icons to the start of the row */
     margin-top: 30px; /* Add margin to the top */
+    animation: fadeIn 1s ease-out; /* Apply fade-in animation */
 }
 
 .icon-block {
@@ -69,11 +74,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: bounce 2s ease-out; /* Apply bounce animation */
 }
 
 .icon-block img {
     width: 50px; /* Set the width of the icon */
     height: 50px; /* Set the height of the icon */
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
 }
 
 /* Media Queries for Small Screens */
@@ -92,12 +131,10 @@
 
     .home-page h3 {
         font-size: 24px; /* Decrease font size for smaller screens */
-        
     }
 
     .home-page p {
         font-size: 20px; /* Decrease font size for smaller screens */
-       
     }
 
     .home-page img {
