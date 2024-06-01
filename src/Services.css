@@ -45,8 +45,7 @@
 /* Media query for small screens */
 @media screen and (max-width: 768px) {
   .services-container {
-    margin: 20px; /* Equal left and right margin for smaller screens */
-    margin-top: 50px; /* Keep the top margin */
+    margin: 50px 100px 20px; /* Equal left and right margin for smaller screens */
   }
   
   .services {
