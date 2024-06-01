@@ -1,17 +1,21 @@
 .skills-container {
-  width: 100vw;
-  height: 100vh;
+
+ 
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 100px 0; /* Add padding to create top and bottom margins */
+  box-sizing: border-box; /* Ensure padding is included in the height */
+  overflow-x: hidden; /* Remove horizontal scrollbar */
 }
 
 .content-container {
   background-color: black;
   border: 2px solid black;
   padding: 20px;
-  margin: 100px auto; /* Centering the container */
+  margin: auto; /* Centering the container */
   max-width: 1000px; /* Adjust the maximum width as needed */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Updated shadow */
 }
@@ -52,7 +56,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   max-height: calc(2 * (300px + 20px)); /* Set max height for two rows */
-  overflow-y: auto; /* Add scrollbar for overflow */
 }
 
 .skill-item {
@@ -80,7 +83,7 @@
 @media screen and (max-width: 768px) {
   .content-container {
     padding: 10px; /* Reduced padding for smaller screens */
-    margin: 100px 20px; /* Adjusted margin for smaller screens */
+    margin: auto 20px; /* Adjusted margin for smaller screens */
     max-width: calc(100% - 40px); /* Adjusted max-width for smaller screens */
   }
   
@@ -94,6 +97,10 @@
   
   .who-i-am {
     font-size: 12px; /* Further reduced font size for smaller screens */
+  }
+  
+  .skills-list {
+    overflow-y: auto; /* Add scrollbar for overflow */
   }
   
   .skill-item {
