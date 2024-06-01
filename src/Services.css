@@ -20,6 +20,11 @@
   box-shadow: 0 2px 4px rgba(235, 231, 231, 0.1);
   color: white;
   margin-bottom: 10px;
+  transition: transform 0.3s ease; /* Add transition for smooth zoom */
+}
+
+.service:hover {
+  transform: scale(1.05); /* Scale up the block slightly on hover */
 }
 
 .service h2 {

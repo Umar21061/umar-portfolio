@@ -1,6 +1,4 @@
 .skills-container {
-
- 
   background-size: cover;
   background-position: center;
   display: flex;
@@ -63,6 +61,11 @@
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(240, 237, 237, 0.5); /* Added shadow */
   padding: 10px; /* Equal padding for all skill blocks */
+  transition: transform 0.3s ease; /* Add transition for smooth zoom */
+}
+
+.skill-item:hover {
+  transform: scale(1.05); /* Scale up the block slightly on hover */
 }
 
 .skill-image {
