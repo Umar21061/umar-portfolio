@@ -13,22 +13,14 @@ const Services = () => {
       description: "Building web applications using the Django framework.",
     },
    
-    {
-      id: 4,
-      title: "Portfolio Websites",
-      description: "Designing and developing personal or professional portfolio websites.",
-    },
+   
     {
       id: 3,
-      title: "React Websites",
+      title: "Websites Development",
       description: "Creating interactive user interfaces with React.js.",
     },
     
-    {
-      id: 6,
-      title: "WordPress Websites",
-      description: "Building WordPress Websotes from frontend to backend.",
-    },
+  
     {
       id: 17,
       title: "Shopify Store ",
@@ -47,8 +39,13 @@ const Services = () => {
     },
     {
         id: 6.5,
-        title: "Sales Dashboards",
+        title: "Sales Dashboard",
         description: "Transform data into growth. Real-time insights, proactive decisions.",
+      },
+      {
+        id: 6.5,
+        title: "Bussiness Analysis",
+        description: "Transforming data into strategic decisions with Business Analysis.",
       },
    
      
@@ -70,12 +67,6 @@ const Services = () => {
       description: "Support with undergraduate-level projects and assignments.",
     },
    
-   
-    {
-      id: 14,
-      title: "Programming Assignments",
-      description: "Help with assignments and projects related to computer programming.",
-    },
     {
         id: 15,
         title: "MATLAB - MathWorks",

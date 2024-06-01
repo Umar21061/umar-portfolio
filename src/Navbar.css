@@ -48,9 +48,7 @@
 
 /* Responsive styles */
 @media (max-width: 1024px) {
-  .navbar-menu a {
-    text-align: left;
-  }
+  
   .navbar {
     padding: 0.5rem;
   }
@@ -78,9 +76,6 @@
     position: relative;
   }
   
-  .navbar-menu a {
-    text-align: left;
-  }
   .navbar-brand {
     margin-left: 1rem;
     font-size: 30px;
@@ -118,8 +113,5 @@
     position: absolute; /* Position it absolutely */
     top: 1rem; /* Adjust as needed */
     right: 1rem; /* Position to the right side */
-  }
-  .navbar-menu a {
-    text-align: left;
   }
 }
