@@ -4,6 +4,12 @@
   margin-right: 50px;
   margin-top: 50px;
 }
+.title{
+  text-align: left;
+}
+.p{
+  align-items: center;
+}
 
 .services {
   display: grid;
