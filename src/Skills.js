@@ -10,7 +10,7 @@ const Skills = () => {
       const skillsWithImages = [];
       const skills = [
         "Python", "Django", "React.js", "Portfolio Websites", "WordPress",
-        "E-commerce Development", "Data Analysis", "Machine Learning", "PHP",
+        "E-commerce App", "Data Analysis", "Machine Learning", "PHP",
         "Laravel", "Shopify", "Problem Solving", "Github", "LinkedIn",
         "Heroku", "AWS", "Postman", "Node.js", "MongoDB", "PostgreSQL", 
         "SQL", "Express", "Artificial Intelligence", "Machine Learning" 
